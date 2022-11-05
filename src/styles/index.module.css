@@ -1,0 +1,45 @@
+:root {
+  /* Fonts */
+  --ff-nunito: "Nunito", sans-serif;
+  --ff-freehand: "Freehand", cursive;
+  --fw-regular: 400;
+  --fw-semiBold: 600;
+  --fw-black: 900;
+
+  /* Colors */
+  --clr-black: hsl(210, 29%, 13%);
+  --clr-dark-blue: hsl(204, 64%, 23%);
+  --clr-gray: hsl(0, 1%, 52%);
+  --clr-lightblue: hsl(204, 62%, 47%);
+  --clr-red: hsl(0, 72%, 44%);
+  --clr-white: hsl(192, 15%, 94%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--ff-nunito);
+  font-weight: var(--regular);
+  color: var(--clr-white);
+  background-color: var(--clr-dark-blue);
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
