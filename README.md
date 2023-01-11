@@ -9,6 +9,7 @@ Un mini carrito de compras de productos escolares
 - CSS
 - JavaScript
 - React JS
+- Bundler Vite
 ### Captura de Pantalla
 ![mini-cart](https://user-images.githubusercontent.com/26915529/211818591-142aab0d-b331-4907-8608-f50124f16873.JPG)
 [Ver Demo](https://hernan11.github.io/mini-cart/)
